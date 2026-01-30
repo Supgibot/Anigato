@@ -1,0 +1,115 @@
+.container {
+  min-height: 100vh;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 60px;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.backButton {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background 0.2s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  
+  .subtitle {
+    font-weight: 400;
+    color: #888;
+    margin-left: 8px;
+    text-transform: capitalize;
+  }
+}
+
+.pageIndicator {
+  color: #888;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.9rem;
+}
+
+.viewer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0 80px; /* Space for footer controls */
+  overflow-y: auto;
+}
+
+.pageWrapper {
+  max-width: 100%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+.pageImage {
+  max-width: 100%;
+  height: auto;
+  max-height: 90vh; /* Fit to screen usually better for reading */
+  display: block;
+}
+
+.controls {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: rgba(26, 26, 26, 0.95);
+  backdrop-filter: blur(5px);
+  border-top: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+  z-index: 100;
+}
+
+.navBtn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: #444;
+  }
+}
+
+.scrubber {
+  flex: 1;
+  max-width: 300px;
+  accent-color: var(--primary);
+}

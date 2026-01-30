@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "maintainer": "Blender Foundation Demo",
+  "last_updated": "2026-01-30",
+  "works": [
+    {
+      "id": "demo-video-001",
+      "external_ids": {
+        "imdb": "tt1254207"
+      },
+      "original_title": "Big Buck Bunny",
+      "type": "video",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg",
+      "description": "A giant rabbit with a heart bigger than himself.",
+      "raw_media": {
+        "movie": [
+          { 
+            "quality": "720p", 
+            "format": "mp4", 
+            "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" 
+          }
+        ]
+      },
+      "localizations": [
+        {
+          "locale": "pt-BR",
+          "title": "Big Buck Bunny (Dublado)",
+          "tracks": {
+            "movie": [
+               { 
+                 "type": "subtitle", 
+                 "language": "pt-BR", 
+                 "label": "Português", 
+                 "url": "https://raw.githubusercontent.com/andreyvit/subtitle-tools/master/sample.srt" 
+               }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

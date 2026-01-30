@@ -9,9 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "classnames": "^2.5.1",
+    "dexie": "^4.2.1",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-icons": "^5.5.0",
+    "sass": "^1.97.3",
+    "zustand": "^5.0.10"
   },
   "devDependencies": {
     "@types/node": "^20",

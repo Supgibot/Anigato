@@ -1,0 +1,23 @@
+[
+  {
+    "pageNumber": 1,
+    "balloons": [
+      {
+        "id": "b1",
+        "text": "Hello! This is a translated text overlay.",
+        "x": 20,
+        "y": 20,
+        "width": 30,
+        "style": "speech"
+      },
+      {
+        "id": "b2",
+        "text": "It works without editing the image!",
+        "x": 60,
+        "y": 50,
+        "width": 25,
+        "style": "thought"
+      }
+    ]
+  }
+]

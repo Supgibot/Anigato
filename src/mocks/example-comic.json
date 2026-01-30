@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "maintainer": "Official Demo Source",
+  "last_updated": "2026-01-30",
+  "works": [
+    {
+      "id": "demo-comic-001",
+      "external_ids": {
+        "anilist": 123456
+      },
+      "original_title": "Pepper & Carrot",
+      "type": "comic",
+      "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Pepper_and_Carrot_cover_volume_1.jpg/640px-Pepper_and_Carrot_cover_volume_1.jpg",
+      "description": "Open Source Webcomic by David Revoy",
+      "raw_media": {
+        "episode_1": {
+          "title": "The Potion of Flight",
+          "pages": [
+            { "page": 1, "url": "https://www.peppercarrot.com/0_sources/ep01_Potion-of-flight/hi-res/en_01.jpg" },
+            { "page": 2, "url": "https://www.peppercarrot.com/0_sources/ep01_Potion-of-flight/hi-res/en_02.jpg" }
+          ]
+        }
+      },
+      "localizations": [
+        {
+          "locale": "pt-BR",
+          "title": "Pepper & Carrot (PT-BR)",
+          "text_overlays": {
+            "episode_1": "/mocks/script-ep1.json"
+          }
+        },
+        {
+          "locale": "en-US",
+          "title": "Pepper & Carrot (English)",
+          "text_overlays": {
+             "episode_1": "/mocks/scripts/en-us/ep1.json"
+          }
+        }
+      ]
+    }
+  ]
+}
